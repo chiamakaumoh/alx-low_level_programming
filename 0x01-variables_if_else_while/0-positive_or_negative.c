@@ -1,7 +1,6 @@
-#include <stdlib.h>
+#include <stdlid.h>
 #include <time.h>
-include stdio.h>
-
+#include <stdio.h>
 /**
  * main - assigns a random number to int n everytime
  * it executes, and prints it
@@ -10,14 +9,13 @@ include stdio.h>
 int main(void)
 {
 	int n;
-
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX /2;
 	if (n > 0)
 		printf("%d is positive\n", n);
-	else if (n == 0)
+	else if (n == o)
 		printf("%d is zero\n", n);
 	else if (n < 0)
-		printf("%d is negative\n", n);
+		printf("%d negative\n", n);
 	return (0);
 }
